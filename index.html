@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Dancing+Script&family=Itim&family=Lumanosimo&family=Oswald:wght@200;300;400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,200;0,300;0,500;1,100&family=Tektur&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Newsletter </title>
+</head>
+<body>
+    <div class="app">
+        
+        <div id="newsletter"  class="newsletter_form_container ">
+<section class="text-and-input">
+    <h1 class="text-and-input__h1">
+        Stay Updated!
+    </h1>
+    <p class="text-and-input__text">
+Join 60,000+ product managers receiving monthly updates on:
+    </p>
+    <ul class="text-and-input__listbox">
+        <li class="text-and-input__listitems"><span class="material-symbols-outlined text-and-input__icon">
+            check_circle
+            </span>Product discovery and building what matters</li>
+        <li class="text-and-input__listitems"><span class="material-symbols-outlined text-and-input__icon">
+            check_circle
+            </span>Measuring to ensure updates are a success </li>
+        <li class="text-and-input__listitems"><span class="material-symbols-outlined text-and-input__icon">
+            check_circle
+            </span>And much more!</li>
+    </ul>
+    <form class="text-and-input__form">
+        <p class="labelHolder"><label for="" class="text-and-input__label">Email address</label><small id="inputError" class="inputError">Valid email required</small></p>
+        <input type="email" id="inputID" placeholder="email@company.com" class="text-and-input__inputfield" required>
+   <button  id="submit" name="submit" class="text-and-input__btn">Subcribe to monthly newletter</button>
+    </form>
+
+</section>
+<section class="side-img">
+<img src="img/image.svg" alt="Image" class="side-img__image">
+</section>
+        </div>
+        <div id="successDiv" class="successDiv hide">
+        <i><span class="material-symbols-outlined successDiv__icon__style">
+            check_circle
+            </span></i>
+            <h1 class="successDivH1">
+                Thanks for subscribing!
+            </h1>
+            <p class="successDiv-p">
+                A confirmation email has been sent to <span class="boldText">ash@loremcompany.com</span>. Please open it and click the button inside to confirm your subscription .
+            </p>
+            <button  id="dismiss" name="submit" class="successDiv-btn">Dismiss message</button>
+   
+        </div>
+    </div> 
+    
+    
+
+
+    <script src="javascript/index.js" charset="utf-8"></script>  
+</body>
+</html>
