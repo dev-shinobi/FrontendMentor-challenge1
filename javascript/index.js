@@ -5,7 +5,7 @@ function submitSuccess(e) {
     const emailInput = email[0].value;
     if( emailInput && emailInput.includes('@') && emailInput.includes('.com','.net','.edu','.biz','.xyz')){
     document.getElementById("newsletter").classList.add("hide");
-    document.getElementById("successDiv").classList.add("showflex");
+    document.getElementById("successDiv").classList.add("showgrid");
     
     }
     else{
