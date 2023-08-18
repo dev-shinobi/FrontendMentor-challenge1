@@ -18,6 +18,7 @@ function submitSuccess(e) {
   document.getElementById('dismiss').addEventListener('click', Dismissfunc);
   function Dismissfunc(e) {
     document.getElementById("successDiv").style.display = "none";
+    location.reload();
     document.getElementById("newsletter").classList.add("showgrid");
   }
   
